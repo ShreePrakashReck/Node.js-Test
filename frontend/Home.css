@@ -1,0 +1,253 @@
+.wrapper{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    
+    
+}
+body {
+    background-color: #191D28;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.headerLeft{
+     display: flex;
+     flex-direction: column;
+}
+
+.HeaderPart{
+    color: #2E9B9B;
+    font-size: 30px;
+}
+
+#para{
+    color: gray;
+}
+
+.headerRight{
+    display:flex ;
+    flex-direction: row;
+    color: white;
+    align-items: baseline;
+    gap: 16px;
+    padding-right: 50px;
+    
+}
+
+.iconTelegram{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    color: white;
+    background-color: #42C0BE;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.numberbtn{
+    display: flex;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #42C0BE ;
+}
+
+.main-content{
+    padding: 40px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2D3241;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2D3241;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  a:hover {
+    color: #222222
+  }
+  
+  /* Dropdown */
+  
+  .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .dd-button {
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 3px 25px 5px 3px;
+    background-color: #2E9B9B;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .dd-button:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+  }
+  
+  .dd-button:hover {
+    background-color: #eeeeee;
+  }
+  
+  
+  .dd-input {
+    display: none;
+  }
+  
+  .dd-menu {
+    position: absolute;
+    top: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+    background-color: #2E9B9B;
+    list-style-type: none;
+  }
+  
+  .dd-input + .dd-menu {
+    display: none;
+  } 
+  
+  .dd-input:checked + .dd-menu {
+    display: block;
+  } 
+  
+  .dd-menu li {
+    padding: 5px 14px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .dd-menu li:hover {
+    background-color: #f6f6f6;
+  }
+  
+  .dd-menu li a {
+    display: block;
+    margin: -10px -20px;
+    padding: 10px 20px;
+  }
+  
+  .dd-menu li.divider{
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+  }
+
+  td {
+    text-align: center;
+    color: #FFFFFF;
+    height: 50px;
+    font-size: 20px;
+    font: bolder;
+    font-weight: 500;
+    
+  }
+
+  th{
+     color: #4F5159;
+     font-size: 20px;
+
+  }
+
+  
+
+  table{
+     width: 100%;
+     font-size: large;
+     border: none;
+     
+  }
+
+  table tr{
+     height: 23px;
+
+  }
+.table-row{
+    height: 20px;
+    width: 20px;
+    background-color: #2D3241;
+}
+
